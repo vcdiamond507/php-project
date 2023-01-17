@@ -94,7 +94,7 @@
                     </div>
                 </form>
                 <!-- //form -->
-                <p class="backtohome mt-4"><a href="index.html" class="back"><i class="fa fa-chevron-left"
+                <p class="backtohome mt-4"><a href="index.php" class="back"><i class="fa fa-chevron-left"
                             aria-hidden="true"></i>Back to Home </a></p>
             </div>
         </div>

@@ -9,7 +9,14 @@ $sql = "SELECT * FROM `user-login-data` where user_id= '$fusername'";
 $result = mysqli_query($conn, $sql);  
 $row = mysqli_num_rows($result);
 
-if($row<1)
+
+if($fusername=="admin@gmail.com" && $fuserpass=="admin@123" )
+{
+  header("Location: http://localhost/php-project/admin-panel.php");
+}
+else
+{
+  if($row<1)
 {
   echo(' <script>alert("Error! user-id not found. Please signup first.");</script>');
 }
@@ -31,6 +38,8 @@ else
       echo(' <script>alert("Error! Password do not match. Please login again");</script>');
     }
 }
+}
+
 }
 
 

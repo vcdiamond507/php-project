@@ -215,7 +215,7 @@ include('header-sidebar.php');
                       <div class="content-overlay"></div>
                       <img src="assets/images/brand/'.$brand_name.'.jpg" class="img-fluid" style="height: 40vh; width: 100% ;">
                       <div class="content-details fadeIn-top">
-                        <a href="products.php"  target="_blank" class="btn-primary btn-style">Shop Now</a>
+                        <a href="products.php?cat='.$brand_name.'"  class="btn-primary btn-style">Shop Now</a>
                       </div>
                     </div>
                     <div class="card-footer text-muted chart-grid__footer p-4">
